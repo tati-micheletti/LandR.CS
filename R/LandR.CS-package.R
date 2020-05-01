@@ -13,7 +13,6 @@
 #'         during function calls. Default \code{FALSE}.
 #' }
 #'
-#' @import methods
 #' @name LandR.CS-package
 #' @rdname LandR.CS-package
 "_PACKAGE"

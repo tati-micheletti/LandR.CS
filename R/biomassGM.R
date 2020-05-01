@@ -103,7 +103,6 @@ calculateClimateEffect <- function(cohortData, CMI, ATA, gcsModel, mcsModel,
 #' @param correlation this is the correlation structure?
 #' @param method Ceres help me
 #' @param level the marginal or conditional predictor
-#' @importFrom nlme lmeControl
 #' @rdname own
 #' @export
 own <-function(fixed=~1, random = NULL, correlation = NULL, method = "ML",
@@ -180,7 +179,6 @@ own <-function(fixed=~1, random = NULL, correlation = NULL, method = "ML",
 #' @param x this is a param
 #' @param y I don't know what this is
 #' @param w I don't know what these are
-#' @importFrom nlme lme
 #' @rdname gamlss.own
 #' @export
 gamlss.own <- function(x, y, w, xeval = NULL, ...)
